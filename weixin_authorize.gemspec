@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "redis", "~> 3.1.0"
 
   spec.add_dependency "carrierwave", "~> 0.10.0"
-  spec.add_dependency 'mini_magick', '~> 3.7.0'
+  spec.add_dependency 'mini_magick' #, '~> 3.7.0'
 
   # A streaming JSON parsing and encoding library for Ruby (C bindings to yajl)
   # https://github.com/brianmario/yajl-ruby
